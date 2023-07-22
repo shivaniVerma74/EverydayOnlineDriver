@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\8da7eebe1fcaa0128869cd3753733a84\\transformed\\media-1.1.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\8da7eebe1fcaa0128869cd3753733a84\\transformed\\media-1.1.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\8da7eebe1fcaa0128869cd3753733a84\\transformed\\media-1.1.0\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\8da7eebe1fcaa0128869cd3753733a84\\transformed\\media-1.1.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\8da7eebe1fcaa0128869cd3753733a84\\transformed\\media-1.1.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\8da7eebe1fcaa0128869cd3753733a84\\transformed\\media-1.1.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\8da7eebe1fcaa0128869cd3753733a84\\transformed\\media-1.1.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\8da7eebe1fcaa0128869cd3753733a84\\transformed\\media-1.1.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\8da7eebe1fcaa0128869cd3753733a84\\transformed\\media-1.1.0\\res\\layout\\notification_template_media.xml"
+    }
+]

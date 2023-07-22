@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\sms_autofill\\intermediates\\res\\merged\\release\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\086a0f8ae27795bbea90148d81cddb54\\transformed\\jetified-play-services-auth-19.2.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\sms_autofill\\intermediates\\res\\merged\\release\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\086a0f8ae27795bbea90148d81cddb54\\transformed\\jetified-play-services-auth-19.2.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\sms_autofill\\intermediates\\res\\merged\\release\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\086a0f8ae27795bbea90148d81cddb54\\transformed\\jetified-play-services-auth-19.2.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+    }
+]

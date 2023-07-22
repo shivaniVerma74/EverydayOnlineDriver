@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Downloads\\BusBooking_Driver\\BusBookingDriver\\build\\google_maps_flutter_android\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\2b7f738b1b197728ae916399236de347\\transformed\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\BusBooking_Driver\\BusBookingDriver\\build\\google_maps_flutter_android\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\2b7f738b1b197728ae916399236de347\\transformed\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\BusBooking_Driver\\BusBookingDriver\\build\\google_maps_flutter_android\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\2b7f738b1b197728ae916399236de347\\transformed\\jetified-play-services-base-18.0.1\\res\\color\\common_google_signin_btn_tint.xml"
+    }
+]

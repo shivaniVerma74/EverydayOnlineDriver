@@ -1,0 +1,798 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.driver.everyday"
+4    android:versionCode="5"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:4:5-66
+11-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:5:5-80
+12-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:6:5-78
+13-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:7:5-79
+14-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:7:22-77
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:8:5-80
+15-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:9:5-70
+16-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:9:22-68
+17
+18    <queries>
+18-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:11:5-24:15
+19        <intent>
+19-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:12:9-15:18
+20            <action android:name="android.intent.action.VIEW" />
+20-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:13:13-65
+20-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:13:21-62
+21
+22            <data android:scheme="https" />
+22-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:14:13-44
+22-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:14:19-41
+23        </intent>
+24        <intent>
+24-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:16:9-19:18
+25            <action android:name="android.intent.action.DIAL" />
+25-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:17:13-65
+25-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:17:21-62
+26
+27            <data android:scheme="tel" />
+27-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:14:13-44
+27-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:14:19-41
+28        </intent>
+29        <intent>
+29-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:20:9-23:18
+30            <action android:name="android.intent.action.SEND" />
+30-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:21:13-65
+30-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:21:21-62
+31
+32            <data android:mimeType="*/*" />
+32-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:14:13-44
+32-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:22:19-41
+33        </intent>
+34        <intent>
+34-->[:file_picker] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:10:9-14:18
+35            <action android:name="android.intent.action.GET_CONTENT" />
+35-->[:file_picker] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:13-72
+35-->[:file_picker] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:21-69
+36
+37            <data android:mimeType="*/*" />
+37-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:14:13-44
+37-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:22:19-41
+38        </intent>
+39    </queries>
+40
+41    <uses-permission android:name="android.permission.WAKE_LOCK" />
+41-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:5-68
+41-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:22-65
+42    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+42-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:5-79
+42-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:22-76
+43    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+43-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:11:5-77
+43-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:11:22-74
+44    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+44-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:5-89
+44-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:22-86
+45    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+45-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:5-81
+45-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:22-78
+46    <uses-permission android:name="android.permission.VIBRATE" />
+46-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:5-66
+46-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:22-63
+47    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+47-->[:flutter_local_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:5-81
+47-->[:flutter_local_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:22-78
+48    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+48-->[:flutter_local_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:5-79
+48-->[:flutter_local_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:10:22-76
+49    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+49-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:28:5-82
+49-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:28:22-79
+50    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+50-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\b80a617fc24446ac1f20f61dc286be56\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:5-79
+50-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\b80a617fc24446ac1f20f61dc286be56\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:25:22-76
+51    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+51-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:5-110
+51-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
+52
+53    <permission
+53-->[androidx.core:core:1.9.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\95c85f33fa1374bce77238057e614e09\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+54        android:name="com.driver.everyday.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+54-->[androidx.core:core:1.9.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\95c85f33fa1374bce77238057e614e09\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+55        android:protectionLevel="signature" />
+55-->[androidx.core:core:1.9.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\95c85f33fa1374bce77238057e614e09\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+56
+57    <uses-permission android:name="com.driver.everyday.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+57-->[androidx.core:core:1.9.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\95c85f33fa1374bce77238057e614e09\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+57-->[androidx.core:core:1.9.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\95c85f33fa1374bce77238057e614e09\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+58    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+59    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+60    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+61    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+62    <!-- for Samsung -->
+63    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+63-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+63-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+64    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+64-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+64-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+65    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+65-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+65-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+66    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+66-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+66-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+67    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+67-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+67-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+68    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+68-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+68-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+69    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+69-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+69-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+70    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+70-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+70-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+71    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+71-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+71-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+72    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+72-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+72-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+73    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+73-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+73-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+74    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+74-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+74-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+75    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+75-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+75-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+76    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+76-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+76-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+77    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+77-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+77-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+78    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+78-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+78-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Alphawizz\.gradle\caches\transforms-3\c910f2a458379d197430fa21c2544b7c\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+79
+80    <application
+80-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:26:5-67:19
+81        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+81-->[androidx.core:core:1.9.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\95c85f33fa1374bce77238057e614e09\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+82        android:icon="@mipmap/ic_launcher"
+82-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:28:9-43
+83        android:label="Everyday Online Driver"
+83-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:27:9-47
+84        android:usesCleartextTraffic="true" >
+84-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:29:9-44
+85        <activity
+85-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:30:9-59:20
+86            android:name="com.driver.everyday.MainActivity"
+86-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:31:13-41
+87            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+87-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:34:13-163
+88            android:exported="true"
+88-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:36:13-36
+89            android:hardwareAccelerated="true"
+89-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:35:13-47
+90            android:launchMode="singleTop"
+90-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:32:13-43
+91            android:theme="@style/LaunchTheme"
+91-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:33:13-47
+92            android:windowSoftInputMode="adjustResize" >
+92-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:37:13-55
+93
+94            <!--
+95                 Specifies an Android theme to apply to this Activity as soon as
+96                 the Android process has started. This theme is visible to the user
+97                 while the Flutter UI initializes. After that, this theme continues
+98                 to determine the Window background behind the Flutter UI.
+99            -->
+100            <meta-data
+100-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:42:13-45:17
+101                android:name="io.flutter.embedding.android.NormalTheme"
+101-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:43:15-70
+102                android:resource="@style/NormalTheme" />
+102-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:44:15-52
+103            <!--
+104                 Displays an Android View that continues showing the launch screen
+105                 Drawable until Flutter paints its first frame, then this splash
+106                 screen fades out. A splash screen is useful to avoid any visual
+107                 gap between the end of Android's launch screen and the painting of
+108                 Flutter's first frame.
+109            -->
+110            <meta-data
+110-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:51:13-54:17
+111                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+111-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:52:15-79
+112                android:resource="@drawable/launch_background" />
+112-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:53:15-61
+113
+114            <intent-filter>
+114-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:55:13-58:29
+115                <action android:name="android.intent.action.MAIN" />
+115-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:56:17-68
+115-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:56:25-66
+116
+117                <category android:name="android.intent.category.LAUNCHER" />
+117-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:57:17-76
+117-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:57:27-74
+118            </intent-filter>
+119        </activity>
+120        <!-- <activity android:name="com.stripe.android.payments.StripeBrowserLauncherActivity" android:exported="true"/> -->
+121
+122
+123        <!--
+124             Don't delete the meta-data below.
+125             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+126        -->
+127        <meta-data
+127-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:64:9-66:33
+128            android:name="flutterEmbedding"
+128-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:65:13-44
+129            android:value="2" />
+129-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:66:13-30
+130
+131        <service
+131-->[:firebase_auth] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+132            android:name="com.google.firebase.components.ComponentDiscoveryService"
+132-->[:firebase_auth] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+133            android:directBootAware="true"
+133-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\24d7750d1d9ea55d10ae484ba86bf85e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+134            android:exported="false" >
+134-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:54:13-37
+135            <meta-data
+135-->[:firebase_auth] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+136                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+136-->[:firebase_auth] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[:firebase_auth] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+138            <meta-data
+138-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:36:13-38:85
+139                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+139-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:37:17-128
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:38:17-82
+141            <meta-data
+141-->[:firebase_core] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+142                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+142-->[:firebase_core] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[:firebase_core] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+145                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+145-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Alphawizz\.gradle\caches\transforms-3\fa8ddc9344bff44fe411fec5011b845b\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+148                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+148-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Alphawizz\.gradle\caches\transforms-3\fa8ddc9344bff44fe411fec5011b845b\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Alphawizz\.gradle\caches\transforms-3\fa8ddc9344bff44fe411fec5011b845b\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+151                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+151-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\5f75f07539979545d980c8cc2c97be3d\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+154                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+154-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\5f75f07539979545d980c8cc2c97be3d\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\5f75f07539979545d980c8cc2c97be3d\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+156            <meta-data
+156-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\b80a617fc24446ac1f20f61dc286be56\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:31:13-33:85
+157                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+157-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\b80a617fc24446ac1f20f61dc286be56\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:32:17-139
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\b80a617fc24446ac1f20f61dc286be56\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:33:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\d7b9bc88b2f5a4c9f76fa7fee331a7ec\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+160                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+160-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\d7b9bc88b2f5a4c9f76fa7fee331a7ec\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Alphawizz\.gradle\caches\transforms-3\d7b9bc88b2f5a4c9f76fa7fee331a7ec\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+162        </service>
+163        <service
+163-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:14:9-17:72
+164            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+164-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:15:13-107
+165            android:exported="false"
+165-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:16:13-37
+166            android:permission="android.permission.BIND_JOB_SERVICE" />
+166-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:17:13-69
+167        <service
+167-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:18:9-24:19
+168            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+168-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:19:13-97
+169            android:exported="false" >
+169-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:13-37
+170            <intent-filter>
+170-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:21:13-23:29
+171                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+171-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:22:17-78
+171-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:22:25-75
+172            </intent-filter>
+173        </service>
+174
+175        <receiver
+175-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:26:9-33:20
+176            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+176-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:27:13-98
+177            android:exported="true"
+177-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:28:13-36
+178            android:permission="com.google.android.c2dm.permission.SEND" >
+178-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:13-73
+179            <intent-filter>
+179-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:30:13-32:29
+180                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+180-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:31:17-81
+180-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:31:25-78
+181            </intent-filter>
+182        </receiver>
+183
+184        <provider
+184-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:41:9-45:38
+185            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+185-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:42:13-102
+186            android:authorities="com.driver.everyday.flutterfirebasemessaginginitprovider"
+186-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:43:13-88
+187            android:exported="false"
+187-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:44:13-37
+188            android:initOrder="99" />
+188-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:45:13-35
+189        <provider
+189-->[:image_picker_android] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+190            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+190-->[:image_picker_android] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+191            android:authorities="com.driver.everyday.flutter.image_provider"
+191-->[:image_picker_android] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+192            android:exported="false"
+192-->[:image_picker_android] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+193            android:grantUriPermissions="true" >
+193-->[:image_picker_android] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+194            <meta-data
+194-->[:image_picker_android] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+195                android:name="android.support.FILE_PROVIDER_PATHS"
+195-->[:image_picker_android] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+196                android:resource="@xml/flutter_image_picker_file_paths" />
+196-->[:image_picker_android] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+197        </provider>
+198
+199        <receiver
+199-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:13:9-15:39
+200            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+200-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:14:13-89
+201            android:exported="true" />
+201-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:15:13-36
+202        <receiver
+202-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:16:9-18:39
+203            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+203-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:17:13-92
+204            android:exported="true" />
+204-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:18:13-36
+205        <receiver
+205-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:19:9-21:39
+206            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+206-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:20:13-92
+207            android:exported="true" />
+207-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:13-36
+208        <receiver
+208-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:22:9-36:20
+209            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+209-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:23:13-87
+210            android:enabled="true"
+210-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:24:13-35
+211            android:exported="true" >
+211-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:25:13-36
+212            <intent-filter>
+212-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:26:13-35:29
+213                <category android:name="android.intent.category.DEFAULT" />
+213-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:27:17-76
+213-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:27:27-73
+214
+215                <action android:name="android.intent.action.BOOT_COMPLETED" />
+215-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:29:17-79
+215-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:29:25-76
+216                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+216-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:30:17-86
+216-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:30:25-83
+217                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+217-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:31:17-84
+217-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:31:25-81
+218                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+218-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:32:17-82
+218-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:32:25-79
+219                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+219-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:33:17-82
+219-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:33:25-79
+220                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+220-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:34:17-107
+220-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:34:25-104
+221            </intent-filter>
+222        </receiver>
+223
+224        <service
+224-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:38:9-41:72
+225            android:name="me.carda.awesome_notifications.DartBackgroundService"
+225-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:39:13-80
+226            android:exported="false"
+226-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:40:13-37
+227            android:permission="android.permission.BIND_JOB_SERVICE" />
+227-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:41:13-69
+228        <service
+228-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:42:9-47:43
+229            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+229-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:43:13-90
+230            android:enabled="true"
+230-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:44:13-35
+231            android:exported="false"
+231-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:45:13-37
+232            android:foregroundServiceType="phoneCall"
+232-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:46:13-54
+233            android:stopWithTask="true" />
+233-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:47:13-40
+234
+235        <receiver
+235-->[:flutter_local_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:14:9-16:40
+236            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+236-->[:flutter_local_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:15:13-97
+237            android:exported="false" />
+237-->[:flutter_local_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:16:13-37
+238        <receiver
+238-->[:flutter_local_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:17:9-26:20
+239            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+239-->[:flutter_local_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:18:13-101
+240            android:exported="false" >
+240-->[:flutter_local_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:19:13-37
+241            <intent-filter>
+241-->[:flutter_local_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:20:13-25:29
+242                <action android:name="android.intent.action.BOOT_COMPLETED" />
+242-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:29:17-79
+242-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:29:25-76
+243                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+243-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:31:17-84
+243-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:31:25-81
+244                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+244-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:32:17-82
+244-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:32:25-79
+245                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+245-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:33:17-82
+245-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:33:25-79
+246            </intent-filter>
+247        </receiver>
+248
+249        <activity
+249-->[:url_launcher_android] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+250            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+250-->[:url_launcher_android] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+251            android:exported="false"
+251-->[:url_launcher_android] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+252            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+252-->[:url_launcher_android] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+253
+254        <service
+254-->[:location] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\location\intermediates\library_manifest\release\AndroidManifest.xml:11:9-15:56
+255            android:name="com.lyokone.location.FlutterLocationService"
+255-->[:location] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\location\intermediates\library_manifest\release\AndroidManifest.xml:12:13-71
+256            android:enabled="true"
+256-->[:location] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\location\intermediates\library_manifest\release\AndroidManifest.xml:13:13-35
+257            android:exported="false"
+257-->[:location] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\location\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+258            android:foregroundServiceType="location" />
+258-->[:location] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\location\intermediates\library_manifest\release\AndroidManifest.xml:15:13-53
+259
+260        <receiver
+260-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+261            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+261-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+262            android:exported="true"
+262-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+263            android:permission="com.google.android.c2dm.permission.SEND" >
+263-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+264            <intent-filter>
+264-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:30:13-32:29
+265                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+265-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:31:17-81
+265-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:31:25-78
+266            </intent-filter>
+267        </receiver>
+268        <!--
+269             FirebaseMessagingService performs security checks at runtime,
+270             but set to not exported to explicitly avoid allowing another app to call it.
+271        -->
+272        <service
+272-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+273            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+273-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+274            android:directBootAware="true"
+274-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+275            android:exported="false" >
+275-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\f355c5f29ff486ceb31a980a5997630d\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+276            <intent-filter android:priority="-500" >
+276-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:21:13-23:29
+277                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+277-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:22:17-78
+277-->[:firebase_messaging] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:22:25-75
+278            </intent-filter>
+279        </service>
+280        <service
+280-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\81f506db1b9508ffa4fdbcb878cdc1bc\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+281            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+281-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\81f506db1b9508ffa4fdbcb878cdc1bc\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+282            android:exported="false" >
+282-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\81f506db1b9508ffa4fdbcb878cdc1bc\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+283            <meta-data
+283-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\81f506db1b9508ffa4fdbcb878cdc1bc\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+284                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+284-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\81f506db1b9508ffa4fdbcb878cdc1bc\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+285                android:value="cct" />
+285-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\81f506db1b9508ffa4fdbcb878cdc1bc\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+286        </service>
+287        <service
+287-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\2440e6c177398a8d1d82d89271c50406\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+288            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+288-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\2440e6c177398a8d1d82d89271c50406\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+289            android:exported="false"
+289-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\2440e6c177398a8d1d82d89271c50406\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+290            android:permission="android.permission.BIND_JOB_SERVICE" >
+290-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\2440e6c177398a8d1d82d89271c50406\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+291        </service>
+292
+293        <receiver
+293-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\2440e6c177398a8d1d82d89271c50406\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+294            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+294-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\2440e6c177398a8d1d82d89271c50406\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+295            android:exported="false" />
+295-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Alphawizz\.gradle\caches\transforms-3\2440e6c177398a8d1d82d89271c50406\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+296
+297        <activity
+297-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+298            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+298-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+299            android:excludeFromRecents="true"
+299-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+300            android:exported="true"
+300-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+301            android:launchMode="singleTask"
+301-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+302            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+302-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+303            <intent-filter>
+303-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+304                <action android:name="android.intent.action.VIEW" />
+304-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:13:13-65
+304-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:13:21-62
+305
+306                <category android:name="android.intent.category.DEFAULT" />
+306-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:27:17-76
+306-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:27:27-73
+307                <category android:name="android.intent.category.BROWSABLE" />
+307-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+307-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+308
+309                <data
+309-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:14:13-44
+310                    android:host="firebase.auth"
+311                    android:path="/"
+312                    android:scheme="genericidp" />
+312-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:14:19-41
+313            </intent-filter>
+314        </activity>
+315        <activity
+315-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+316            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+316-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+317            android:excludeFromRecents="true"
+317-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+318            android:exported="true"
+318-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+319            android:launchMode="singleTask"
+319-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+320            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+320-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+321            <intent-filter>
+321-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+322                <action android:name="android.intent.action.VIEW" />
+322-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:13:13-65
+322-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:13:21-62
+323
+324                <category android:name="android.intent.category.DEFAULT" />
+324-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:27:17-76
+324-->[:awesome_notifications] D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:27:27-73
+325                <category android:name="android.intent.category.BROWSABLE" />
+325-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+325-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\f90880404fa7cd1a969e35538bc2ecec\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+326
+327                <data
+327-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:14:13-44
+328                    android:host="firebase.auth"
+329                    android:path="/"
+330                    android:scheme="recaptcha" />
+330-->D:\Downloads\Everyday Online Driver27May\Everyday Online Driver\android\app\src\main\AndroidManifest.xml:14:19-41
+331            </intent-filter>
+332        </activity>
+333
+334        <provider
+334-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\24d7750d1d9ea55d10ae484ba86bf85e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+335            android:name="com.google.firebase.provider.FirebaseInitProvider"
+335-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\24d7750d1d9ea55d10ae484ba86bf85e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+336            android:authorities="com.driver.everyday.firebaseinitprovider"
+336-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\24d7750d1d9ea55d10ae484ba86bf85e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+337            android:directBootAware="true"
+337-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\24d7750d1d9ea55d10ae484ba86bf85e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+338            android:exported="false"
+338-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\24d7750d1d9ea55d10ae484ba86bf85e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+339            android:initOrder="100" />
+339-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\24d7750d1d9ea55d10ae484ba86bf85e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+340
+341        <activity
+341-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\086a0f8ae27795bbea90148d81cddb54\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+342            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+342-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\086a0f8ae27795bbea90148d81cddb54\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+343            android:excludeFromRecents="true"
+343-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\086a0f8ae27795bbea90148d81cddb54\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+344            android:exported="false"
+344-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\086a0f8ae27795bbea90148d81cddb54\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+345            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+345-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\086a0f8ae27795bbea90148d81cddb54\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+346        <!--
+347            Service handling Google Sign-In user revocation. For apps that do not integrate with
+348            Google Sign-In, this service will never be started.
+349        -->
+350        <service
+350-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\086a0f8ae27795bbea90148d81cddb54\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+351            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+351-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\086a0f8ae27795bbea90148d81cddb54\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+352            android:exported="true"
+352-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\086a0f8ae27795bbea90148d81cddb54\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+353            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+353-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\086a0f8ae27795bbea90148d81cddb54\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+354            android:visibleToInstantApps="true" />
+354-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\086a0f8ae27795bbea90148d81cddb54\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+355
+356        <receiver
+356-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:29:9-33:20
+357            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+357-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:30:13-85
+358            android:enabled="true"
+358-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:31:13-35
+359            android:exported="false" >
+359-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:32:13-37
+360        </receiver>
+361
+362        <service
+362-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:35:9-38:40
+363            android:name="com.google.android.gms.measurement.AppMeasurementService"
+363-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:36:13-84
+364            android:enabled="true"
+364-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:37:13-35
+365            android:exported="false" />
+365-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:38:13-37
+366        <service
+366-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:39:9-43:72
+367            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+367-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
+368            android:enabled="true"
+368-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:41:13-35
+369            android:exported="false"
+369-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:42:13-37
+370            android:permission="android.permission.BIND_JOB_SERVICE" />
+370-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\Alphawizz\.gradle\caches\transforms-3\a90aea0f47ced7caace9d1d2b16515d8\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:43:13-69
+371
+372        <activity
+372-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\2b7f738b1b197728ae916399236de347\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+373            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+373-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\2b7f738b1b197728ae916399236de347\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+374            android:exported="false"
+374-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\2b7f738b1b197728ae916399236de347\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+375            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+375-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\2b7f738b1b197728ae916399236de347\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+376
+377        <provider
+377-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\fdb6752f6604409b5f77f658a155d9a0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+378            android:name="androidx.startup.InitializationProvider"
+378-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\fdb6752f6604409b5f77f658a155d9a0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+379            android:authorities="com.driver.everyday.androidx-startup"
+379-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\fdb6752f6604409b5f77f658a155d9a0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+380            android:exported="false" >
+380-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\fdb6752f6604409b5f77f658a155d9a0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+381            <meta-data
+381-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\fdb6752f6604409b5f77f658a155d9a0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+382                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+382-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\fdb6752f6604409b5f77f658a155d9a0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+383                android:value="androidx.startup" />
+383-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\fdb6752f6604409b5f77f658a155d9a0\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+384            <meta-data
+384-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\a49d6ff6a31f823235097880858a1d58\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+385                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+385-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\a49d6ff6a31f823235097880858a1d58\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+386                android:value="androidx.startup" />
+386-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Alphawizz\.gradle\caches\transforms-3\a49d6ff6a31f823235097880858a1d58\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+387            <meta-data
+387-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+388                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+388-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+389                android:value="androidx.startup" />
+389-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+390        </provider>
+391
+392        <uses-library
+392-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\77694bc5b4d0c10d85dee3e48728632b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+393            android:name="androidx.window.extensions"
+393-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\77694bc5b4d0c10d85dee3e48728632b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+394            android:required="false" />
+394-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\77694bc5b4d0c10d85dee3e48728632b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+395        <uses-library
+395-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\77694bc5b4d0c10d85dee3e48728632b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+396            android:name="androidx.window.sidecar"
+396-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\77694bc5b4d0c10d85dee3e48728632b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+397            android:required="false" />
+397-->[androidx.window:window:1.0.0-beta04] C:\Users\Alphawizz\.gradle\caches\transforms-3\77694bc5b4d0c10d85dee3e48728632b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+398
+399        <meta-data
+399-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\d311a594f317cc8cefe694fa1ecdecee\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+400            android:name="com.google.android.gms.version"
+400-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\d311a594f317cc8cefe694fa1ecdecee\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+401            android:value="@integer/google_play_services_version" />
+401-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\d311a594f317cc8cefe694fa1ecdecee\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+402
+403        <receiver
+403-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+404            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+404-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+405            android:directBootAware="false"
+405-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+406            android:enabled="true"
+406-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+407            android:exported="true"
+407-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+408            android:permission="android.permission.DUMP" >
+408-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+409            <intent-filter>
+409-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+410                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+410-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+410-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+411            </intent-filter>
+412            <intent-filter>
+412-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+413                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+413-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+413-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+414            </intent-filter>
+415            <intent-filter>
+415-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+416                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+416-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+416-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+417            </intent-filter>
+418            <intent-filter>
+418-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+419                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+419-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+419-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alphawizz\.gradle\caches\transforms-3\47b91b38d841c7bfa39b1a5d8c7f41a4\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+420            </intent-filter>
+421        </receiver>
+422    </application>
+423
+424</manifest>

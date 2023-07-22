@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/deliveryboy/multivendor/deliveryboy_multivendor/MainActivity.java
+ com.driver.comforttourtravel.MainActivity
+com/driver/comforttourtravel/BuildConfig.java
+ com.driver.comforttourtravel.BuildConfig

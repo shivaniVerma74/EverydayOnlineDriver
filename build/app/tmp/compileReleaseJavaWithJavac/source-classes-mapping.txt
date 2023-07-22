@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/driver/everyday/BuildConfig.java
+ com.driver.everyday.BuildConfig
+com/deliveryboy/multivendor/deliveryboy_multivendor/MainActivity.java
+ com.driver.everyday.MainActivity

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">364951393956-gc5q9r1ipalpnj2kin50keqops84cgdj.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">364951393956</string>
+    <string name="google_api_key" translatable="false">AIzaSyCIquwIHB91rWjxQVivXTDjjyMlMuiQHiA</string>
+    <string name="google_app_id" translatable="false">1:364951393956:android:c2bd6acda0196193257831</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCIquwIHB91rWjxQVivXTDjjyMlMuiQHiA</string>
+    <string name="google_storage_bucket" translatable="false">everyday-driver.appspot.com</string>
+    <string name="project_id" translatable="false">everyday-driver</string>
+</resources>

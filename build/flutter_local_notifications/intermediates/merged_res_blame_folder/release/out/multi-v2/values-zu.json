@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\res\\merged\\release\\values-zu\\values-zu.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\values-zu\\values-zu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\flutter_local_notifications\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zu\\values-zu.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\values-zu\\values-zu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

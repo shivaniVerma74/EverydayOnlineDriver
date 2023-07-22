@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\file_picker\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\file_picker\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\file_picker\\intermediates\\res\\merged\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\file_picker\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\file_picker\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Downloads\\Everyday Online Driver27May\\Everyday Online Driver\\build\\file_picker\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Alphawizz\\.gradle\\caches\\transforms-3\\5ed1fb1ef52fc49d218e8e13a54d9479\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    }
+]
